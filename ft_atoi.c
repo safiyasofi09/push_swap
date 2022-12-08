@@ -1,8 +1,17 @@
-#include "push_swap.c"
+#include "push_swap.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 static int	skip_spaces(char c)
 {
 	if ((c >= 9 && c <= 13) || c == ' ')
+		return (1);
+	return (0);
+}
+
+int	ft_isdigit(int c)
+{
+	if (c >= 48 && c <= 57)
 		return (1);
 	return (0);
 }

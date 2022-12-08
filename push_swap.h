@@ -15,5 +15,8 @@ void    rrr(int a[], int b[], int a_size, int b_size);
 void    push_swap(int a[], int b[], int *a_size, int *b_size);
 void    three_numbers_function(int a[], int a_size);
 int     check_sorting(int a[], int a_size);
+int     check_letters(char *s);
 int	    ft_atoi(char *str);
+int	    check_duplications(int *a, int s, int size);
+char	**ft_split(char *s, char c);
 #endif
